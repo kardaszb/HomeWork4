@@ -49,10 +49,10 @@ public class Room {
         } else return false;
     }
 
-    String showInfo() {
-        return "Metraż pokoju: " + getMeasurement() + "\n"
-                + "Actualna temperatura: " + getActualTemp() + "\n"
-                + "Czy pokój ma klimatyzacje?: " + getIsVentInstalled() + "\n"
-                + "Minimalna temp. w pokoju wynosi: " + getMinTemp() + "\n";
+    public String showInfo() {
+        return "Metraż pokoju: " + measurement + "\n"
+                + "Actualna temperatura: " + actualTemp + "\n"
+                + "Czy pokój ma klimatyzacje?: " + isVentInstalled + "\n"
+                + "Minimalna temp. w pokoju wynosi: " + minTemp + "\n";
     }
 }
